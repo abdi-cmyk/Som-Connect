@@ -5,7 +5,7 @@ function Home() {
     return <>
         <h1>maya</h1>
 
-        <Footer/>
+       
     </>
 }
 
