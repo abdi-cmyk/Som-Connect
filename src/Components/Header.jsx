@@ -8,9 +8,9 @@ function Header() {
             <h1 className="text-cyan-500 font-bold text-2xl">SomConnect</h1>
 
             <ul className="flex gap-5">
-                <li className="text-blue-500"><Link to="/">Home</Link></li>
-                <li className="text-blue-500"><Link to="/service">Service</Link></li>
-                <li className="text-blue-500"><Link to="/contact">Contact</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/service">Service</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
 
             

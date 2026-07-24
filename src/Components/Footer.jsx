@@ -13,53 +13,45 @@ function Footer() {
           <p className="text-sm text-white leading-relaxed max-w-sm">SomConnect is a leading satellite internet service provider delivering high-speed, reliable, and seamless connectivity for homes and businesses across the nation and beyond</p>
         </div>
 
-        {/* COLUMN 2: Quick Links */}
         <div className="space-y-4 md:pl-8">
           <h3 className="text-lg font-semibold text-white">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <Link to="/" className="hover:text-slate-300 transition-colors inline-block">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/service" className="hover:text-slate-300 transition-colors inline-block">
-                Service
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="hover:text-slate-300 transition-colors inline-block">
-                Contact
-              </Link>
-            </li>
-          </ul>
+          <div className="space-y-2 text-sm">
+            <p>
+              <Link to="/" className="hover:text-slate-300 transition-colors inline-block">Home</Link>
+            </p>
+            <p>
+              <Link to="/service" className="hover:text-slate-300 transition-colors inline-block">Service</Link>
+            </p>
+            <p>
+              <Link to="/contact" className="hover:text-slate-300 transition-colors inline-block">Contact</Link>
+            </p>
+          </div>
         </div>
 
-        {/* COLUMN 3: Contact Info (Call, Email, Address) */}
+
         <div className="space-y-4">
           <h3 className="text-lg font-semibold text-white">Contact Info</h3>
-          <ul className="space-y-3 text-sm">
-            <li className="flex items-center space-x-3 text-white">
+          <div className="space-y-3 text-sm">
+            <div className="flex items-center space-x-3 text-white">
               <Phone className="w-5 h-5 text-white shrink-0" />
               <span>+252 610000000</span>
-            </li>
-            <li className="flex items-center space-x-3 text-white">
+            </div>
+            <div className="flex items-center space-x-3 text-white">
               <Mail className="w-5 h-5 text-white shrink-0" />
               <span>info@somconnect.so</span>
-            </li>
-            <li className="flex items-center space-x-3 text-white">
+            </div>
+            <div className="flex items-center space-x-3 text-white">
               <MapPin className="w-5 h-5 text-white shrink-0" />
               <span>Banaadir, Muqdisho, Somalia</span>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
 
       </div>
 
-      {/*  Copyright  */}
+
       <div className="max-w-7xl mx-auto px-8 mt-10 pt-6 border-t border-slate-800/60 text-center text-xs text-white">
-        © 2026 SomConnect. All rights reserved.
-      </div>
+        © 2026 SomConnect. All rights reserved.</div>
     </footer>
   </>
 }
