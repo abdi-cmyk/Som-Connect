@@ -2,7 +2,7 @@ import React from 'react';
 import { MapPin, Mail, Phone } from 'lucide-react';
 
 const Contact = () => {
-  return (
+  return <>
     <div className="min-h-screen text-white flex items-center justify-center p-6">
       <div className="max-w-4xl w-full   rounded-xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
         
@@ -69,7 +69,7 @@ const Contact = () => {
 
       </div>
     </div>
-  );
-};
+  </>
+}
 
-export default Contact;
+export default Contact

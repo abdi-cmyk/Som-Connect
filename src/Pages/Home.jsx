@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+import Service from './Service';
 import React from 'react';
-import { Wifi, Zap, ShieldCheck, ArrowRight, Star, Mail } from 'lucide-react';
+import { Wifi, Zap, ShieldCheck, Star, Mail } from 'lucide-react';
 import hero from '../assets/Hero.png'
 
 const Home = () => {
   return (
-    <div className="bg-white text-gray-900 min-h-screen">
+    <div className="bg-white text-black min-h-screen">
 
       <section className="px-6 py-20 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         <div className="md:w-1/2 space-y-6">
@@ -16,13 +18,9 @@ const Home = () => {
             Experience high-speed fiber internet for your home and business with SomConnect. Always online, always fast.
           </p>
           <div className="flex space-x-4">
-            <button className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-3 rounded-md transition flex items-center space-x-2 shadow-md">
-              <span>Get Started</span>
-              <ArrowRight className="w-5 h-5" />
-            </button>
-            <button className="border border-gray-300 hover:border-cyan-500 text-gray-800 px-6 py-3 rounded-md transition">
-              Explore Plans
-            </button>
+            <Link to="/Service" className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-3 rounded-md transition flex items-center space-x-2 shadow-md inline-flex">
+  <span>Get Started</span>
+</Link>
           </div>
         </div>
 
